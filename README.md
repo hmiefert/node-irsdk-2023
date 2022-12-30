@@ -9,7 +9,7 @@ As I had various errors with the original repo [node-irsdk](https://github.com/a
 and also several forks, I've tried to puzzle the barebones pieces together to get this version running, starting with
 [node-irsdk-2021](https://github.com/mcalapurge/node-irsdk) By Nekaiko.
 
-So, this version works as of 30/12/2022 with no prebuild and only the necessary dependencies, but at least no vulnerabilities.
+So, this version works as of 30/12/2022 and NodeJS v18.12.1 LTS, with no prebuild and only the necessary dependencies to get it up and running, but at least no vulnerabilities, so that's good I guess.
 Also there is none of the previous testing framework.
 
 ## further information
