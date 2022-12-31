@@ -13,7 +13,7 @@ So, this version works as of 30/12/2022 and NodeJS v18.12.1 LTS, with no prebuil
 Also there is none of the previous testing framework.
 
 ## prerequesites
-AFAIK, for compiling this package you need the `node-gyp@^9.0.0` package.
+For compiling this package you need `node-gyp@^9.0.0`.
 ```
 npm install -g node-gyp
 ```
@@ -26,8 +26,8 @@ npm install --save https://github.com/hmiefert/node-irsdk-2023
 ```
 
 ## using with electron
-When using this package with electron you might run into an error stating, that the installed package was compiled against a different version of NodeJS, therefore the NODE_MODULE versions differ and you're expected to recompile the package.
-To archieve this you need a package called electron-rebuild and run the rebuild command manually:
+When using this package with electron, you might run into an error stating that the installed package was compiled against a different version of NodeJS, therefore the NODE_MODULE versions differ and you're expected to recompile the package.
+To achieve this you need a package called electron-rebuild and run the rebuild command manually:
 ```
 npm install --save-dev electron-rebuild
 .\node_modules\.bin\electron-rebuild.cmd
