@@ -30,6 +30,9 @@ npm install -g windows-build-tools
 npm install --save https://github.com/hmiefert/node-irsdk-2023
 ```
 
+## starter project
+[NodeJS starter project](https://github.com/hmiefert/irtelemetry)
+
 ## using with electron
 When using this package with electron, you might run into an error stating that the installed package was compiled against a different version of NodeJS, therefore the NODE_MODULE versions differ and you're expected to recompile the package.
 To achieve this you need a package called electron-rebuild and run the rebuild command manually:
