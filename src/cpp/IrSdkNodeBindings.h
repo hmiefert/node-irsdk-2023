@@ -55,6 +55,11 @@ namespace NodeIrSdk {
     NAN_EXPORT(target, sendCmd);
   }
 
-  // name of native addon
+  // name of native addon (fixed for electron)
+  // https://github.com/electron/electron/issues/18397
+  #if NODE_MAJOR_VERSION >= 10
+  NAN_MODULE_WORKER_ENABLED(IrSdkNodeBindings, init)
+  #else
   NODE_MODULE(IrSdkNodeBindings, init)
+  #endif
 }
