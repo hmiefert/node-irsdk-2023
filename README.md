@@ -30,7 +30,7 @@ npm install -g windows-build-tools
 npm install --save https://github.com/hmiefert/node-irsdk-2023
 ```
 
-## starter project
+## starter projects
 - [NodeJS starter project](https://github.com/hmiefert/irtelemetry)
 - [Electron starter project](https://github.com/hmiefert/electron-irtelemetry)
 
