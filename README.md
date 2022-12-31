@@ -25,7 +25,7 @@ npm install -g windows-build-tools
 ```
 
 
-## installing the package
+## installing
 ```
 npm install --save https://github.com/hmiefert/node-irsdk-2023
 ```
@@ -39,14 +39,12 @@ npm install --save-dev electron-rebuild
 ```
 
 ## further information
+* [forum thread](https://forums.iracing.com/discussion/34241/does-node-irsdk-still-work)
 * [original documentation](https://apihlaja.github.io/node-irsdk)
 * [original forum thread](http://members.iracing.com/jforum/posts/list/3329583.page)
-* [new forum thread](https://forums.iracing.com/discussion/34241/does-node-irsdk-still-work)
 
-Other iRSDK implementations:
-
-* [Official C/C++ SDK](http://members.iracing.com/jforum/posts/list/1470675.page)
+Other iRSDK implementations
+* [Official C/C++ SDK](https://forums.iracing.com/discussion/62/iracing-sdk)
 * [iRacingSdkWrapper (C#)](https://github.com/NickThissen/iRacingSdkWrapper)
 * [pyirsdk (python3)](https://github.com/kutu/pyirsdk/)
 * [iRacingSDK.Net](https://github.com/vipoo/iRacingSDK.Net)
-
