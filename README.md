@@ -10,7 +10,7 @@ and also several forks, I've tried to puzzle the barebones pieces together to ge
 [node-irsdk-2021](https://github.com/mcalapurge/node-irsdk) By Nekaiko.
 
 So, this version works as of 30/12/2022 and NodeJS v18.12.1 LTS, with no prebuild and only the necessary dependencies to get it up and running, but at least no vulnerabilities, so that's good I guess.
-Also there is none of the previous testing framework.
+Also there is none of the previous testing framework, so use at your own risk.
 
 ## prerequesites
 For compiling this package you need `node-gyp@^9.0.0`.
