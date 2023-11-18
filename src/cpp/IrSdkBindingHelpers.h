@@ -161,4 +161,10 @@ const std::vector<MaskName> CAR_BESIDE = {
     MaskName((int)irsdk_LR2CarsLeft, "LR2CarsLeft"),       // there are two cars to our left.
     MaskName((int)irsdk_LR2CarsRight, "LR2CarsRight")      // there are two cars to our right.
 };
+
+const std::vector<MaskName> PACE_FLAGS = {
+    MaskName((int)irsdk_PaceFlagsEndOfLine, "EndOfLine"),
+    MaskName((int)irsdk_PaceFlagsFreePass, "FlagsFreePass"),
+    MaskName((int)irsdk_PaceFlagsWavedAround, "WavedAround"),
+};
 }; // namespace NodeIrSdk
